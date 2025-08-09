@@ -1,32 +1,39 @@
-# Visual Studio Code - Open Source ("Code - OSS")
+# AI-Powered IDE
 
-[![Feature Requests](https://img.shields.io/github/issues/microsoft/vscode/feature-request.svg)](https://github.com/microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
-[![Bugs](https://img.shields.io/github/issues/microsoft/vscode/bug.svg)](https://github.com/microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
-[![Gitter](https://img.shields.io/badge/chat-on%20gitter-yellow.svg)](https://gitter.im/Microsoft/vscode)
+[![GitHub Issues](https://img.shields.io/github/issues/onCloud9-git/ai-powered-ide.svg)](https://github.com/onCloud9-git/ai-powered-ide/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/onCloud9-git/ai-powered-ide.svg)](https://github.com/onCloud9-git/ai-powered-ide/stargazers)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/onCloud9-git/ai-powered-ide/blob/main/LICENSE.txt)
 
 ## The Repository
 
-This repository ("`Code - OSS`") is where we (Microsoft) develop the [Visual Studio Code](https://code.visualstudio.com) product together with the community. Not only do we work on code and issues here, we also publish our [roadmap](https://github.com/microsoft/vscode/wiki/Roadmap), [monthly iteration plans](https://github.com/microsoft/vscode/wiki/Iteration-Plans), and our [endgame plans](https://github.com/microsoft/vscode/wiki/Running-the-Endgame). This source code is available to everyone under the standard [MIT license](https://github.com/microsoft/vscode/blob/main/LICENSE.txt).
+This repository is where we develop the AI-Powered IDE - a comprehensive AI-enhanced development environment that combines the best features of VSCode, Kiro, and Cursor. Built on Electron with integrated browser automation and AI-aware terminal functionality. This source code is available to everyone under the standard [MIT license](https://github.com/onCloud9-git/ai-powered-ide/blob/main/LICENSE.txt).
 
-## Visual Studio Code
+## AI-Powered IDE
 
 <p align="center">
   <img alt="VS Code in action" src="https://user-images.githubusercontent.com/35271042/118224532-3842c400-b438-11eb-923d-a5f66fa6785a.png">
 </p>
 
-[Visual Studio Code](https://code.visualstudio.com) is a distribution of the `Code - OSS` repository with Microsoft-specific customizations released under a traditional [Microsoft product license](https://code.visualstudio.com/License/).
+AI-Powered IDE is a next-generation development environment that combines the familiar VSCode interface with advanced AI capabilities, browser automation, and intelligent terminal integration.
 
-[Visual Studio Code](https://code.visualstudio.com) combines the simplicity of a code editor with what developers need for their core edit-build-debug cycle. It provides comprehensive code editing, navigation, and understanding support along with lightweight debugging, a rich extensibility model, and lightweight integration with existing tools.
+**Key Features:**
+- **AI Assistant Integration**: Contextual awareness (Kiro-style) + code generation (Cursor-style)
+- **MCP Puppeteer Integration**: Built-in browser automation for testing and web interaction
+- **AI-Integrated Terminal**: Intelligent terminal that AI can see and interact with
+- **Mobile-Ready Architecture**: React Native components for future mobile compatibility
+- **VSCode Foundation**: Familiar interface with extension compatibility
+- **Performance Optimized**: Fast startup and responsive AI features
 
-Visual Studio Code is updated monthly with new features and bug fixes. You can download it for Windows, macOS, and Linux on [Visual Studio Code's website](https://code.visualstudio.com/Download). To get the latest releases every day, install the [Insiders build](https://code.visualstudio.com/insiders).
+AI-Powered IDE provides comprehensive code editing, navigation, and understanding support along with AI-powered debugging, intelligent code completion, and seamless integration with modern development workflows.
 
 ## Contributing
 
 There are many ways in which you can participate in this project, for example:
 
-* [Submit bugs and feature requests](https://github.com/microsoft/vscode/issues), and help us verify as they are checked in
-* Review [source code changes](https://github.com/microsoft/vscode/pulls)
-* Review the [documentation](https://github.com/microsoft/vscode-docs) and make pull requests for anything from typos to additional and new content
+* [Submit bugs and feature requests](https://github.com/onCloud9-git/ai-powered-ide/issues), and help us verify as they are checked in
+* Review [source code changes](https://github.com/onCloud9-git/ai-powered-ide/pulls)
+* Contribute to AI engine improvements and new features
+* Help with documentation and examples
 
 If you are interested in fixing issues and contributing directly to the code base,
 please see the document [How to Contribute](https://github.com/microsoft/vscode/wiki/How-to-Contribute), which covers the following:

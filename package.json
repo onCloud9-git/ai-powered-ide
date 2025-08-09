@@ -1,9 +1,9 @@
 {
-  "name": "code-oss-dev",
+  "name": "ai-powered-ide",
   "version": "1.104.0",
   "distro": "1dc7c0e96002d6354d0d6e2a90cfd7d23c6ba6f3",
   "author": {
-    "name": "Microsoft Corporation"
+    "name": "AI-Powered IDE Team"
   },
   "license": "MIT",
   "main": "./out/main.js",
