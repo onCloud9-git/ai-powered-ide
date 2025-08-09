@@ -159,7 +159,7 @@ steps:
     condition: succeededOrFailed()
 
   # - ${{ if eq(parameters.VSCODE_QUALITY, 'oss') }}:
-  #   - powershell: npm run compile
+  #   - powershell: npm run compile &
   #     workingDirectory: test/smoke
   #     displayName: Compile smoke tests
 

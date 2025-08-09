@@ -131,7 +131,7 @@ steps:
     condition: succeededOrFailed()
 
   # - ${{ if eq(parameters.VSCODE_QUALITY, 'oss') }}:
-  #   - script: npm run compile
+  #   - script: npm run compile &
   #     workingDirectory: test/smoke
   #     displayName: Compile smoke tests
 

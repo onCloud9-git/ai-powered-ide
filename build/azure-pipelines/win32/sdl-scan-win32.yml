@@ -99,7 +99,7 @@ steps:
     env:
       VSCODE_QUALITY: ${{ parameters.VSCODE_QUALITY }}
 
-  - powershell: npm run compile
+  - powershell: npm run compile &
     displayName: Compile
 
   - powershell: npm run gulp "vscode-symbols-win32-${{ parameters.VSCODE_ARCH }}"

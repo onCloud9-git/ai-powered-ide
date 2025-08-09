@@ -92,7 +92,7 @@ jobs:
 
       - name: Compile Editor Tests
         working-directory: ./test/monaco
-        run: npm run compile
+        run: npm run compile &
 
       - name: Run Editor Tests
         timeout-minutes: 5

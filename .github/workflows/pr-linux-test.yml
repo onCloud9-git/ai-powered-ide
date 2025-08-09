@@ -217,7 +217,7 @@ jobs:
 
       - name: Compile smoke tests
         working-directory: test/smoke
-        run: npm run compile
+        run: npm run compile &
 
       - name: Compile extensions for smoke tests
         run: npm run gulp compile-extension-media

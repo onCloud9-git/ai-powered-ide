@@ -3,6 +3,11 @@
 npm-debug.log
 Thumbs.db
 node_modules/
+
+# Environment variables (contains API keys)
+.env
+.env.local
+.env.production
 .build/
 .vscode/extensions/**/out/
 extensions/**/dist/

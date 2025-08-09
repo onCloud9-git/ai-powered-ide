@@ -75,7 +75,7 @@ jobs:
           tar -czf .build/node_modules_cache/cache.tgz --files-from .build/node_modules_list.txt
 
       - name: Compile /build/ folder
-        run: npm run compile
+        run: npm run compile &
         working-directory: build
 
       - name: Check /build/ folder

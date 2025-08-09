@@ -220,7 +220,7 @@ jobs:
       - name: Compile smoke tests
         working-directory: test/smoke
         shell: pwsh
-        run: npm run compile
+        run: npm run compile &
 
       - name: Compile extensions for smoke tests
         shell: pwsh

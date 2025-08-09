@@ -117,14 +117,14 @@ steps:
   - ${{ if ne(parameters.VSCODE_QUALITY, 'oss') }}:
     - script: |
         set -e
-        npm run compile
+        npm run compile &
       displayName: Compile smoke test suites (non-OSS)
       workingDirectory: test/smoke
       condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'))
 
     - script: |
         set -e
-        npm run compile
+        npm run compile &
       displayName: Compile integration test suites (non-OSS)
       workingDirectory: test/integration/browser
       condition: and(succeeded(), eq(variables['VSCODE_STEP_ON_IT'], 'false'))
